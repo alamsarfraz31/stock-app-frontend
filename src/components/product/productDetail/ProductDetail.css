@@ -1,0 +1,57 @@
+
+.product-detail {
+    margin-bottom: 5rem;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 5px;
+    
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+  }
+  .detail {
+
+      margin-bottom: 1rem;
+    }
+
+    .badge {
+        background-color: red;
+        color: #fff;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 3px;
+      }
+
+      p b {
+        color: rgb(4, 4, 66);
+      }
+
+      .group {
+        border: 1px solid white;
+        padding: 5px;
+      }
+
+      div.detail img {
+        width: 100%;
+        max-height: 280px;
+      }
+
+    .flex-h4 {
+    display: flex;
+    }
+
+    .--color-success {
+      background-color: green;
+      margin-left: 5px;
+    }
+
+    .--color-danger {
+      margin-left: 5px;
+      color: red;
+    }
+
+
+     

@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(11, 109, 88);
+}
+.container {
+    width: 100%;
+    margin: 0;
+    color: white;
+   
+}
+
+.--flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-links {
+    overflow: hidden;
+    margin-right: 5%;
+    padding: 0;
+
+}
+.logo {
+    float: left;
+    margin-left: 5%;
+
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+
+
+.--btn {
+    padding: 10px;
+
+}
+
+.--btn-primary {
+    background-color:rgb(42, 88, 77);
+    border: none;
+    border-radius: 5px;
+    margin: 1px;
+    padding: 15px;
+}
+.--btn-primary:hover {
+    background-color: rgb(135, 185, 174);
+    border-radius: 5px;
+}
+
+.container.hero {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.hero-buttons {
+    
+}
+
+.--btn.--btn-secondary {
+    background-color: rgb(11, 109, 88);
+    color: white;
+    text-decoration: none;
+    border-color: white;
+    border-radius: 5px;
+    border: solid 3px;
+
+}
+
+.btnc {
+    color: white;
+    text-decoration: none;
+}
+
+.reg {
+    padding: 15px;
+    border-radius: 5px;
+}
+.reg:hover {
+    background-color: rgb(135, 185, 174);
+}
+
+.free {
+    color: white;
+    text-decoration: none;
+}
+
+.--flex-start {
+    display: flex;
+}
+
+.--mr {
+    padding: 6px;
+}
+
+.hero-image {
+    margin-left: 10%;
+
+}
+
+img.herostoc {
+    height:60vh;
+    width: 82vh;
+    opacity: .1;
+    border-radius: 10px;
+}
+
+.herostoc:hover {
+    height:60vh;
+    width: 82vh;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+/* Mobile User */
+@media screen and (max-width: 680px) {
+
+    .container.hero {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        width: 100vw;
+        min-width: 100px;
+        margin-left: 0;
+    }
+}
