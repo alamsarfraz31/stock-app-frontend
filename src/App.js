@@ -39,7 +39,7 @@ function App() {
   },[dispatch]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
     <ToastContainer />
     <Routes>
       <Route path="/" element={<Home />} />
