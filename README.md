@@ -1,3 +1,24 @@
+Mern Intentory Backend.
+this backend api for Mern Inventory.
+
+1. Home Page.
+2. Register Yourself.
+3. Login with user and password.
+4. Profile view.
+5. Update profile.
+6. Add Product, quantity and price etc.
+7. Update Product detail.
+8. View Product detail.
+9. Delete Product.
+10. Contact Us Page
+
+   These are all API end points.
+
+This using Reactjs and Redux toolkit.
+
+Contact Us
+Email Id: alamsarfraz31@gmail.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
